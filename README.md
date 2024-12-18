@@ -2,12 +2,12 @@
 This repository is to store the automated tests for the Qubika Technical Test
 
 # Project Structure
-- apis/: Handles interactions with the backend API (e.g., creating the new user).
-- pages/: Implements the Page Object Model. Each file represents a page of the web application (e.g., login_page.py, category_page.py).
-- tests/: Contains the test files that automate the actions for different user scenarios (creating a user, logging in, etc.).
+- apis: Handles interactions with the backend API (e.g., creating the new user).
+- pages: Implements the Page Object Model. Each file represents a page of the web application (e.g., login_page.py, category_page.py).
+- tests: Contains the test files that automate the actions for different user scenarios (creating a user, logging in, etc.).
 - requirements.txt: Lists the necessary Python dependencies.
-- Jenkinsfile/: Jenkinsfile defines the CI/CD pipeline for automating the build, test, and deployment processes
-- Dockerfile/: The Dockerfile defines the steps to build a Docker image for the project
+- Jenkinsfile: Jenkinsfile defines the CI/CD pipeline for automating the build, test, and deployment processes
+- Dockerfile: The Dockerfile defines the steps to build a Docker image for the project
 
 # Prerequisites
 Make sure you have the following installed:
